@@ -1,0 +1,375 @@
+
+:root{
+    --main-color: #427D9D;
+    --grey-color: #666666;
+    --white-color: #fff;
+    --banner-bg-color: #2C3741;
+    --black-color: #000;
+
+    --text-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    --box-shadow: 0 5px 25px rgba(0 0 0 / 20%);
+}
+
+/* ========== Screen-375px to Screen-991px Start ========== */
+@media (min-width: 375px) and (max-width: 991px) {
+    .top_header .right_side .one {
+        margin-left: 0px;
+    }
+    .top_header .left_side{
+        background-color: var(--main-color);
+    }
+    .offer_sec{
+        margin-top: 191px;
+    }
+    .swiper-button-next {
+        margin-right: 0%;
+    }
+    .swiper-button-next {
+        margin-right: -10px;
+    }
+}
+/* ========== Screen-375px to Screen-991px End ========== */
+
+
+/* ========== Screen-320px to Screen-374px Start ========== */
+@media (min-width: 320px) and (max-width: 374px) {
+    .top_header .left_side {
+        background-color: var(--main-color);
+    }
+    .top_header .left_side .toggle a {
+        font-size: 27px;
+        color: var(--bs-white);
+        display: inline-block;
+        margin-top: 4px;
+    }
+    .top_header .left_side img{
+        width: 245px;
+    }
+    .top_header .right_side .one {
+        margin-left: 0px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+    .swiper-slide .content {
+        position: absolute;
+        top: 38%;
+        margin: 0px 23px;
+    }
+    .offer_sec .header h1 {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .offer_sec .header {
+        margin: 280px 0px 30px 0px;
+    }
+    .offer_sec .card {
+        padding: 20px 13px;
+        text-align: center;
+    }
+    .count_sec .card img {
+        margin-left: 7px;
+        margin-top: 14px;
+    }
+    .count_sec .card .card-title {
+        margin-right: 0px;
+        margin-left: -4px;
+    }
+    .count_sec .card .card-text {
+        margin-top: 36px;
+        position: absolute;
+        margin-left: 4px;
+        font-size: 14px;
+    }
+    .testimonial .mobile_head {
+        margin-top: 23px;
+    }
+    .testimonial .header h1 {
+        font-size: 26px;
+    }
+    .testimonial .left_side .card .month {
+        top: 81%;
+        width: 99px;
+    }
+    .testimonial .right_side .testimonial_img {
+        height: 250px;
+        width: 100%;
+    }
+    .testimonial .right_side .swiper-slide {
+        height: 510px;
+    }
+    .testimonial .right_side .content {
+        color: var(--black-color);
+        position: absolute;
+        top: 51%;
+        margin-left: 10px;
+        background-color: var(--main-color);
+    }
+    .swiper-horizontal>.swiper-pagination-bullets {
+        width: 26% !important;
+        top: 93% !important;
+    }
+    .company .header h1 {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .company .swiper-slide {
+        height: 144px;
+    }
+}
+/* ========== Screen-320px to Screen-374px End ========== */
+
+
+/* ========== Screen-375px to Screen-667px Start ========== */
+@media (min-width: 375px) and (max-width: 667px) {
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+    .swiper-slide .content {
+        position: absolute;
+        top: 27%;
+        margin: 0px 24px;
+        text-align: center;
+    }
+    .offer_sec .header h1 {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .offer_sec .card {
+        padding: 20px 13px;
+        text-align: center;
+    }
+    .offer_sec .header {
+        margin: 80px 0px 30px 0px;
+    }
+    .count_sec .card img {
+        margin-left: 10px;
+        margin-top: 14px;
+    }
+    .count_sec .card .card-title {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .count_sec .card .card-text {
+        margin-top: 36px;
+        position: absolute;
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    .count_sec {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .mid_banner {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .mid_banner .left_side .text {
+        font-size: 16px;
+        font-weight: 300;
+        margin-left: 23px;
+    }
+    .blog {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .blog .header h1 {
+        font-size: 26px;
+        margin-bottom: 0px;
+        font-weight: 400;
+    }
+    .blog .blog_card {
+        margin-top: 30px;
+    }
+    .blog .blog_card .card{
+        margin-bottom: 15px;
+    }
+    .testimonial {
+        margin-top: 30px;
+    }
+    .testimonial .header h1 {
+        font-size: 26px;
+    }
+    .testimonial .left_side .card .month {
+        top: 81%;
+        width: 117px;
+    }
+    .testimonial .left_side .card .date {
+        margin-top: 22px;
+    }
+    .testimonial .mobile_head{
+        margin-top: 23px
+    }
+    .testimonial .right_side .content {
+        color: var(--black-color);
+        position: absolute;
+        top: 57%;
+        margin-left: 10px;
+        background-color: var(--main-color);
+    }
+    .testimonial .right_side .swiper-slide {
+        height: 460px;
+    }
+    .testimonial .right_side .testimonial_img {
+        height: 250px;
+        width: 100%;
+    }
+    .testimonial .right_side .content p {
+        margin: 5px 10px 0 16px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets {
+        width: 26% !important;
+        top: 93% !important;
+    }
+    .company {
+        margin-top: 30px;
+    }
+    .company .header h1 {
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .company .swiper-slide {
+        height: 167px;
+    }
+    .footer .copyright{
+        margin-top: 15px;
+    }
+}
+/* ========== Screen-375px to Screen-667px End ========== */
+
+
+/* ========== Screen-768px to Screen-991px Start ========== */
+@media (min-width: 768px) and (max-width: 991px) {
+    .offer_sec{
+        margin-top: 310px;
+    }
+    .count_sec .card img {
+        margin-left: 9px;
+    }
+    .count_sec .card .card-title{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .count_sec .card .card-text {
+        margin-top: 40px;
+        position: absolute;
+        margin-left: 17px;
+    }
+    .testimonial .left_side .card .month {
+        width: 92px;
+        top: 81%;
+    }
+    .testimonial .right_side .testimonial_img {
+        width: 160px;
+        height: 287px;
+    }
+    .testimonial .right_side .content {
+        top: 9%;
+        margin-left: 169px;
+    }
+    .testimonial .right_side .content p {
+        margin: 5px 28px 0 16px;
+        font-size: 14px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets {
+        width: 104%;
+        bottom: 28px;
+    }
+    .testimonial .right_side .swiper-slide {
+        height: 288px;
+    }
+    .company .swiper-slide {
+        height: 166px;
+    }
+}
+/* ========== Screen-768px to Screen-991px End ========== */
+
+
+/* ========== Screen-992px to Screen-1199px Start ========== */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .testimonial .left_side .card .month {
+        width: 125px;
+    }
+    .testimonial .right_side .content {
+        top: 3%;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets {
+        width: 125%;
+    }
+    .top_header .right_side .one {
+        margin-left: -5px;
+    }
+    .top_header .right_side .two {
+        margin-left: 0px;
+    }
+    .top_header .right_side .three {
+        margin-left: 0px;
+    }
+    .top_header .button {
+        display: flex;
+    }
+    .top_header .button button {
+        margin-left: auto;
+    }
+}
+/* ========== Screen-992px to Screen-1199px End ========== */
+
+
+/* ========== Screen-375px to Screen-991px Start ========== */
+@media (min-width: 991px) and (max-width: 1322px) {
+    .swiper-slide .text_content{
+        margin: 0px 31px  0px 0px;
+    }
+    
+}
+/* ========== Screen-375px to Screen-991px End ========== */
+
+
+/* ========== Screen-1024px to Screen-1024px Start ========== */
+@media (min-width: 1024px) and (max-width:1024px){
+    .swiper-button-next {
+        margin-right: 55%;
+    }
+    .swiper-slide .content{
+        margin-left: 86px;
+    }
+}
+/* ========== Screen-1024px to Screen-1024px End ========== */
+
+
+.top_header .left_side .toggle a{
+    font-size: 27px;
+    color: var(--bs-white);
+    display: inline-block;
+    margin-top: 4px;
+}
+.top_header .left_side .toggle{
+    text-align: end;
+}
+.mobile_screen .text_content {
+    position: absolute;
+    top: 130%;
+    width: 100%;
+    color: var(--white-color);
+    margin: 0 0px;
+    transition: 0.3s ease;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 40px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--box-shadow);
+    z-index: 1;
+}
+.slider.swiper-horizontal>.swiper-pagination-bullets {
+    left: 0;
+    width: 95%;
+    border: 46%;
+    top: 62% ;
+}
+@media only screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}
